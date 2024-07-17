@@ -1,0 +1,169 @@
+
+
+
+/* setting width and height of html element*/
+
+body{
+    
+    background-color: #F3DFA2;
+    color: #231F20;
+}
+header {
+    position: fixed; /* Makes the header stay fixed at the top */
+    top: 0; /* Positions it at the top of the viewport */
+    left: 0; /* Positions it at the left edge of the viewport */
+    width: 100%; /* Stretches the header across the entire width */
+    background-color: #C29228; /* Sets the background color */
+    padding: 1rem; /* Adds some padding for spacing */
+  }
+
+.menuitems {
+    display: flex;
+    justify-content: space-around; /* Adjust as needed */
+    align-items: left; /* Adjust as needed for desired vertical alignment */
+    margin-right: 5px; /* Adjust as needed for additional spacing */
+}
+  
+/*.menuitems {
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    margin-right: 5px; /* Adjust as needed for desired spacing */
+    
+
+.fade-in {
+    opacity: 2; /* Initially invisible */
+    transition: opacity 0.2s ease-in-out; /* Animation properties */
+}
+  
+.fade-in.active { /* Add the "active" state when the animation should play */
+    opacity: 1; /* Becomes fully visible */
+}
+
+.name-and-title {
+    opacity: 0; /* Initially invisible */
+    transition: opacity 0.5s ease-in-out; /* Animation properties (adjust duration as needed) */
+    position: absolute; /* Absolute positioning for animation */
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Offset for slide-in effect */
+}
+  
+.tagline1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+
+.tagline2 {
+    font-style: italic;
+    text-align: center;
+}
+
+h1 {
+    font-size: 70px;
+    color: #231F20;
+    text-align: center;
+   
+}
+    
+h2 {
+    text-align: center;
+    font-size: 40px;
+    color: #231F20
+}
+
+.job-title {
+    text-align: center;
+    font-style: italic;
+    color: #231F20;
+    font-size: 40px;
+    
+}
+
+  
+.name-and-title.active { /* Remove this section, not needed anymore */
+    opacity: 1; /* Becomes fully visible */
+}
+   
+.image-container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.caption1 {
+    font-size: 10px;
+    text-align:start;
+}
+
+.caption2 {
+    font-style: italic;
+    font-size: 10px;
+}
+
+
+.intro {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Optional for vertical centering within the element's height */
+  }
+  
+
+.testimonial-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+a {
+    color: #231F20;
+}
+
+
+a:visited {
+    color: #ba3737;
+}
+
+a:hover, a:active {
+    color: #994636
+}
+  
+.contactme {
+    text-align: center;
+    font-size: 40px;
+    color: #231F20
+} 
+
+footer {
+    background-color: #C29228;
+
+}
+.footitems {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.footerlinks {
+    display: flex;
+    align-items: flex-start;
+    justify-content: left;
+    flex-direction: column;
+
+}
+
+.socialicons {
+    display: flex;
+    align-items: flex-start;
+    justify-content: right;
+    flex-direction: column;
+
+}
+
+.copyright {
+    display: flex;
+    justify-content: bottom;
+}

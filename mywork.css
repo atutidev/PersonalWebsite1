@@ -1,0 +1,73 @@
+body{
+    
+    background-color: #F3DFA2;
+    color: #231F20;
+    margin: 0px;
+}
+
+header {
+    position: fixed; /* Makes the header stay fixed at the top */
+    top: 0; /* Positions it at the top of the viewport */
+    left: 0; /* Positions it at the left edge of the viewport */
+    width: 100%; /* Stretches the header across the entire width */
+    background-color: #C29228; /* Sets the background color */
+    padding: 0.3rem; /* Adds some padding for spacing */
+  }
+
+.menuitems {
+    display: flex;
+    justify-content: space-around; /* Adjust as needed */
+    align-items: center; /* Adjust as needed for desired vertical alignment */
+    margin-right: 5px; /* Adjust as needed for additional spacing */
+}  
+
+h1 {
+    font-size: 50px;
+    color: #231F20;
+    text-align: center;
+    margin-bottom: 50px;
+
+   
+}
+.center{
+    padding-bottom: 50px;
+}
+
+body{
+    
+    background-color: #F3DFA2;
+    color: #231F20;
+    margin: 0px;
+}
+
+header {
+    position: fixed; /* Makes the header stay fixed at the top */
+    top: 0; /* Positions it at the top of the viewport */
+    left: 0; /* Positions it at the left edge of the viewport */
+    width: 100%; /* Stretches the header across the entire width */
+    background-color: #C29228; /* Sets the background color */
+    padding: 0.3rem; /* Adds some padding for spacing */
+  }
+
+.menuitems {
+    display: flex;
+    justify-content: space-around; /* Adjust as needed */
+    align-items: center; /* Adjust as needed for desired vertical alignment */
+    margin-right: 5px; /* Adjust as needed for additional spacing */
+}  
+
+h1 {
+    font-size: 50px;
+    color: #231F20;
+    text-align: center;
+    margin-bottom: 50px;
+   
+}
+.footitems {
+    display: flex;
+    justify-content: space-around;
+    background-color: #C29228;
+    margin-right: 5px;
+    
+}
+
